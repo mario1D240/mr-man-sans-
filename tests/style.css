@@ -1,0 +1,130 @@
+body, button {
+    font-family:'IM Fell DW Pica', arial, serif;
+}
+
+button {
+    font-size:1em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 4px #cc3, 0 -5px 4px #9c3, 2px -10px 6px #3c9, -2px -15px 11px #3c9, 2px -18px 18px #69c;
+}
+
+h3 {
+    text-align: center;
+}
+
+.Legend {
+    width:20px;
+    height:20px;
+    display:inline-block;
+    border: outset 1px black;
+}
+
+#HTML5Legend {
+    background-color: #69c;
+}
+
+#FlashLegend {
+    background-color: #cc3;
+}
+
+#NotLoadedLegend {
+    background-color: #ccc;
+}
+
+ul {
+    display: none;
+}
+
+.Sound {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #ccc;
+    padding: 10px;
+    border: outset 2px #666;
+    position: relative;
+    
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    -moz-box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
+}
+
+.Sound pre code {
+    font-size:1.3em;
+}
+
+.HTML5 {
+    background-color: #69c;
+    border-color: Outset 2px #369;
+}
+
+.Flash {
+    background-color: #cc3;
+    border-color: Outset 2px #993;
+}
+
+.Controller {
+    width:600px;
+    height:80px;
+    position:relative;
+    display:inline-block;
+}
+
+.Controller pre {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.SoundChannel {
+    width:200px;
+    height:60px;
+    position:relative;
+    display:inline-block;
+    background-color:#666;
+    border: inset 1px black;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.HTML5 .SoundChannel {
+    background-color:#699;
+}
+
+.Flash .SoundChannel {
+    background-color:#cc7;
+}
+
+.SoundChannel .channelTitle {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+div.timeSlider {
+    width:170px;
+    margin:10px auto;
+    background-color:#ccc;
+    height:10px;
+    position: relative;
+}
+
+div.timeHandle {
+    width:7px;
+    height:15px;
+    background-color:#f00;
+    cursor:move;
+    position:absolute; 
+}
